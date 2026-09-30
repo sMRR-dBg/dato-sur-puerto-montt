@@ -1,161 +1,244 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="es-CL">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description" content="DATO SUR: recursos útiles de Chile, Puerto Montt y la Región de Los Lagos. Clima, empleos, movilidad, turismo, apps, ahorro y más.">
-<link rel="canonical" href="https://smrr-dbg.github.io/dato-sur-puerto-montt/">
+  <title>DATO SUR 🇨🇱 | Puerto Montt, Los Lagos y Chile</title>
 
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="DATO SUR">
-<meta property="og:title" content="DATO SUR 🇨🇱 | Recursos útiles de Chile y Los Lagos">
-<meta property="og:description" content="Recursos útiles de Chile, Puerto Montt y la Región de Los Lagos.">
-<meta property="og:url" content="https://smrr-dbg.github.io/dato-sur-puerto-montt/">
+  <meta name="description" content="DATO SUR reúne información útil de Puerto Montt, la Región de Los Lagos y Chile: clima, empleos, movilidad, trámites, turismo y recursos.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://smrr-dbg.github.io/dato-sur-puerto-montt/">
 
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="DATO SUR 🇨🇱">
-<meta name="twitter:description" content="Recursos útiles de Chile, Puerto Montt y Los Lagos.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DATO SUR 🇨🇱 | Información útil de Puerto Montt y Chile">
+  <meta property="og:description" content="Clima, empleo, movilidad, trámites, turismo y recursos útiles para Puerto Montt, Los Lagos y Chile.">
+  <meta property="og:url" content="https://smrr-dbg.github.io/dato-sur-puerto-montt/">
+  <meta property="og:site_name" content="DATO SUR">
 
-<title>DATO SUR 🇨🇱 | Recursos útiles de Chile y Los Lagos</title>
+  <link rel="stylesheet" href="styles.css">
 
-<style>
-:root{--bg:#07111f;--panel:#101d31;--panel2:#14243b;--text:#f5f7fb;--muted:#aab8cc;--a:#42d392;--b:#5aa9ff;--line:#263750}
-*{box-sizing:border-box}
-body{margin:0;background:linear-gradient(180deg,#07111f,#0b1728 45%,#07111f);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-.wrap{max-width:1050px;margin:auto;padding:18px}
-.nav{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:5px 0 15px}
-.logo{font-weight:900;font-size:23px}
-.nav a{color:#dce7f5;text-decoration:none;font-size:13px;margin-left:12px}
-.hero{padding:35px 0 24px}
-.badge{display:inline-block;border:1px solid #2b405d;border-radius:999px;padding:6px 11px;color:#b9c9df;font-size:13px;background:#0d1a2c}
-h1{font-size:clamp(34px,7vw,58px);line-height:1.02;margin:14px 0 10px;letter-spacing:-1.5px}
-h2{font-size:24px;margin:0 0 8px}
-h3{font-size:18px;margin:10px 0 7px}
-.lead{color:var(--muted);font-size:17px;line-height:1.55;max-width:760px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:14px;margin:18px 0}
-.card{background:linear-gradient(145deg,var(--panel),#0d192a);border:1px solid var(--line);border-radius:17px;padding:18px;min-height:205px;display:flex;flex-direction:column}
-.icon{font-size:28px}
-.card p{color:var(--muted);font-size:14px;line-height:1.45;flex:1}
-.go{display:block;text-align:center;text-decoration:none;color:#06111c;background:var(--a);padding:12px;border-radius:11px;font-weight:800}
-.blue{background:var(--b)}
-.note{border:1px solid #294363;background:#0c1b2e;border-radius:15px;padding:14px 16px;color:#b9c9df;font-size:13px;line-height:1.55;margin:18px 0}
-footer{border-top:1px solid var(--line);margin-top:35px;padding:22px 0 30px;color:#8292a8;font-size:13px;text-align:center}
-@media(max-width:700px){.nav a{display:none}.wrap{padding:14px}}
-</style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"DATO SUR",
+    "alternateName":"Dato Sur Chile",
+    "url":"https://smrr-dbg.github.io/dato-sur-puerto-montt/",
+    "inLanguage":"es-CL"
+  }
+  </script>
 </head>
 
 <body>
-<div class="wrap">
 
-<nav class="nav">
-<a class="logo" href="index.html">DATO SUR 🇨🇱</a>
-<div>
-<a href="index.html">Inicio</a>
-<a href="tendencias.html">Tendencias</a>
-<a href="puerto-montt.html">Puerto Montt</a>
-<a href="empleos.html">Empleos</a>
-</div>
-</nav>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">DATO SUR 🇨🇱</a>
 
-<header class="hero">
-<span class="badge">Chile • Puerto Montt • Los Lagos</span>
-<h1>DATO SUR 🇨🇱</h1>
-<p class="lead">
-Recursos útiles de Chile, Puerto Montt y la Región de Los Lagos:
-clima, empleos, movilidad, turismo, apps, ahorro y más.
-</p>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="main-nav">
+      <a href="puerto-montt.html">Puerto Montt</a>
+      <a href="empleos-puerto-montt.html">Empleos</a>
+      <a href="movilidad-los-lagos.html">Movilidad</a>
+      <a href="clima-puerto-montt.html">Clima</a>
+      <a href="tramites-chile.html">Trámites</a>
+    </nav>
+  </div>
 </header>
 
-<div class="note">
-<strong>Información y recursos útiles:</strong>
-DATO SUR reúne accesos y contenidos prácticos para facilitar la búsqueda de información.
-Los servicios externos pertenecen a sus respectivos proveedores.
-</div>
+<main>
 
-<section>
-<h2>Explora por tema</h2>
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow">PUERTO MONTT · LOS LAGOS · CHILE</span>
 
-<div class="grid">
+    <h1>Información útil para tu día a día</h1>
 
-<article class="card">
-<div class="icon">🔥</div>
-<h3>Tendencias de Chile</h3>
-<p>Descubre qué temas están generando interés y aprende a verificar la información.</p>
-<a class="go" href="tendencias.html">ABRIR →</a>
-</article>
+    <p class="hero-text">
+      DATO SUR reúne recursos, guías y accesos útiles para encontrar
+      información sobre Puerto Montt, la Región de Los Lagos y Chile.
+    </p>
 
-<article class="card">
-<div class="icon">📍</div>
-<h3>Puerto Montt</h3>
-<p>Servicios municipales y recursos útiles de la comuna.</p>
-<a class="go" href="puerto-montt.html">ABRIR →</a>
-</article>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="puerto-montt.html">
+        Explorar Puerto Montt
+      </a>
 
-<article class="card">
-<div class="icon">🌧️</div>
-<h3>Clima</h3>
-<p>Recursos meteorológicos y condiciones para Puerto Montt y la zona.</p>
-<a class="go" href="clima.html">ABRIR →</a>
-</article>
-
-<article class="card">
-<div class="icon">💼</div>
-<h3>Empleos</h3>
-<p>Recursos para buscar oportunidades laborales en Chile.</p>
-<a class="go" href="empleos.html">ABRIR →</a>
-</article>
-
-<article class="card">
-<div class="icon">🚗</div>
-<h3>Movilidad Los Lagos</h3>
-<p>Información sobre transporte y movilidad regional.</p>
-<a class="go" href="movilidad.html">ABRIR →</a>
-</article>
-
-<article class="card">
-<div class="icon">🇨🇱</div>
-<h3>Turismo</h3>
-<p>Recursos para conocer destinos de Chile y la Región de Los Lagos.</p>
-<a class="go" href="turismo.html">ABRIR →</a>
-</article>
-
-<article class="card">
-<div class="icon">📱</div>
-<h3>Apps Android</h3>
-<p>Aplicaciones y herramientas móviles útiles.</p>
-<a class="go" href="apps.html">ABRIR →</a>
-</article>
-
-<article class="card">
-<div class="icon">💰</div>
-<h3>Ahorro y pagos</h3>
-<p>Recursos digitales para pagos y administración del dinero.</p>
-<a class="go" href="ahorro.html">ABRIR →</a>
-</article>
-
-<article class="card">
-<div class="icon">₿</div>
-<h3>Cripto</h3>
-<p>Conceptos básicos, seguridad y riesgos de las criptomonedas.</p>
-<a class="go" href="cripto.html">ABRIR →</a>
-</article>
-
-<article class="card">
-<div class="icon">🎁</div>
-<h3>Ofertas y recursos</h3>
-<p>Consejos para encontrar promociones y recursos útiles.</p>
-<a class="go" href="ofertas.html">ABRIR →</a>
-</article>
-
-</div>
+      <a class="btn btn-secondary" href="empleos-puerto-montt.html">
+        Buscar empleos
+      </a>
+    </div>
+  </div>
 </section>
 
-<footer>
-DATO SUR 🇨🇱 · Información y recursos útiles<br>
-<small>Los servicios enlazados pertenecen a terceros. Algunos enlaces pueden ser de redirección.</small>
+<section class="section">
+  <div class="container">
+
+    <div class="section-heading">
+      <span class="eyebrow">LO MÁS ÚTIL</span>
+      <h2>¿Qué necesitas encontrar?</h2>
+      <p>
+        Accede directamente a nuestras principales guías y recursos.
+      </p>
+    </div>
+
+    <div class="card-grid">
+
+      <a class="feature-card" href="clima-puerto-montt.html">
+        <span class="card-icon">🌧️</span>
+        <h3>Clima de Puerto Montt</h3>
+        <p>
+          Cómo revisar el tiempo, lluvia, viento y pronóstico mediante
+          fuentes oficiales.
+        </p>
+        <span class="card-link">Ver guía →</span>
+      </a>
+
+      <a class="feature-card" href="empleos-puerto-montt.html">
+        <span class="card-icon">💼</span>
+        <h3>Empleos en Puerto Montt</h3>
+        <p>
+          Guía para encontrar ofertas, portales laborales y recursos
+          para buscar trabajo.
+        </p>
+        <span class="card-link">Ver empleos →</span>
+      </a>
+
+      <a class="feature-card" href="movilidad-los-lagos.html">
+        <span class="card-icon">🚗</span>
+        <h3>Movilidad Los Lagos</h3>
+        <p>
+          Recursos para consultar rutas, tránsito y conectividad
+          regional.
+        </p>
+        <span class="card-link">Ver movilidad →</span>
+      </a>
+
+      <a class="feature-card" href="tramites-chile.html">
+        <span class="card-icon">📄</span>
+        <h3>Trámites y beneficios</h3>
+        <p>
+          Encuentra rápidamente los principales servicios y trámites
+          oficiales de Chile.
+        </p>
+        <span class="card-link">Ver trámites →</span>
+      </a>
+
+      <a class="feature-card" href="puerto-montt.html">
+        <span class="card-icon">📍</span>
+        <h3>Guía de Puerto Montt</h3>
+        <p>
+          Recursos locales, servicios, movilidad, clima, empleo y
+          lugares de interés.
+        </p>
+        <span class="card-link">Explorar →</span>
+      </a>
+
+      <div class="feature-card">
+        <span class="card-icon">🧰</span>
+        <h3>Herramientas gratuitas</h3>
+        <p>
+          Próximamente: calculadoras, conversores y herramientas
+          prácticas para el día a día.
+        </p>
+        <span class="badge">Próximamente</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="container">
+
+    <div class="section-heading">
+      <span class="eyebrow">PUERTO MONTT</span>
+      <h2>Un punto de partida para encontrar información local</h2>
+
+      <p>
+        Desde DATO SUR puedes acceder a recursos relacionados con
+        empleo, clima, transporte, trámites y otros servicios.
+      </p>
+    </div>
+
+    <div class="quick-links">
+
+      <a href="empleos-puerto-montt.html">
+        💼 Empleos
+      </a>
+
+      <a href="movilidad-los-lagos.html">
+        🚗 Transporte
+      </a>
+
+      <a href="clima-puerto-montt.html">
+        🌦️ Clima
+      </a>
+
+      <a href="tramites-chile.html">
+        📄 Trámites
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container narrow">
+
+    <h2>¿Qué es DATO SUR?</h2>
+
+    <p>
+      DATO SUR es un portal gratuito de recursos e información útil
+      pensado especialmente para usuarios de Chile y, con especial
+      atención, para Puerto Montt y la Región de Los Lagos.
+    </p>
+
+    <p>
+      Nuestro objetivo es ayudarte a encontrar rápidamente información
+      y servicios que ya existen en Internet, organizándolos mediante
+      guías sencillas y contenido práctico.
+    </p>
+
+    <p class="last-update">
+      Última actualización editorial: 30 de septiembre de 2026.
+    </p>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+
+    <div>
+      <strong>DATO SUR 🇨🇱</strong>
+      <p>Información útil para Chile y el sur.</p>
+    </div>
+
+    <div>
+      <strong>Secciones</strong>
+      <a href="puerto-montt.html">Puerto Montt</a>
+      <a href="empleos-puerto-montt.html">Empleos</a>
+      <a href="movilidad-los-lagos.html">Movilidad</a>
+      <a href="clima-puerto-montt.html">Clima</a>
+      <a href="tramites-chile.html">Trámites</a>
+    </div>
+
+  </div>
+
+  <div class="container footer-bottom">
+    © 2026 DATO SUR · Sitio gratuito independiente.
+  </div>
 </footer>
 
-</div>
+<script src="script.js"></script>
+
 </body>
 </html>
