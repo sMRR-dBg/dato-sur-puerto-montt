@@ -1,1 +1,0 @@
-# dato-sur-puerto-montt
