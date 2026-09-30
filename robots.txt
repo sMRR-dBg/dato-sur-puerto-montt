@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smrr-dbg.github.io/dato-sur-puerto-montt/sitemap.xml
