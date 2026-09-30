@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DATO SUR 🇨🇱 | Recursos útiles de Chile y Puerto Montt</title>
+<meta name="description" content="Recursos útiles para Chile, Puerto Montt y Los Lagos: tendencias, empleo, clima, transporte, turismo, apps y servicios.">
+<meta name="theme-color" content="#0b1220">
+<meta property="og:title" content="DATO SUR 🇨🇱">
+<meta property="og:description" content="Recursos útiles para Chile, Puerto Montt y Los Lagos.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://smrr-dbg.github.io/dato-sur-puerto-montt/">
+<style>
+:root{--bg:#07111f;--panel:#101d31;--panel2:#14243b;--text:#f5f7fb;--muted:#aab8cc;--accent:#42d392;--accent2:#5aa9ff;--line:#263750}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#07111f,#0b1728 45%,#07111f);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+.wrap{max-width:1050px;margin:auto;padding:18px}
+.hero{padding:28px 4px 20px}.badge{display:inline-block;border:1px solid #2b405d;border-radius:999px;padding:6px 11px;color:#b9c9df;font-size:13px;background:#0d1a2c}
+h1{font-size:clamp(32px,7vw,58px);margin:14px 0 6px;letter-spacing:-1.5px}h2{margin:8px 0;font-size:22px}
+.hero p{color:var(--muted);font-size:17px;max-width:720px;line-height:1.55}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.search{flex:1;min-width:230px;padding:13px 15px;border-radius:12px;border:1px solid var(--line);background:#0b1728;color:white;font-size:16px;outline:none}.btn{border:1px solid var(--line);background:var(--panel2);color:white;padding:12px 15px;border-radius:12px;font-weight:700;cursor:pointer}
+.section{margin:25px 0}.section-head{display:flex;justify-content:space-between;gap:10px;align-items:end;margin-bottom:12px}.section-head p{margin:0;color:var(--muted);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:13px}
+.card{background:linear-gradient(145deg,var(--panel),#0d192a);border:1px solid var(--line);border-radius:17px;padding:18px;display:flex;flex-direction:column;min-height:205px;box-shadow:0 8px 25px rgba(0,0,0,.14)}
+.icon{font-size:28px}.card h3{margin:10px 0 7px;font-size:18px}.card p{color:var(--muted);line-height:1.45;font-size:14px;flex:1}.go{display:block;text-align:center;text-decoration:none;color:#06111c;background:var(--accent);padding:12px;border-radius:11px;font-weight:800}.go:hover{filter:brightness(1.06)}
+.note{border:1px solid #294363;background:#0c1b2e;border-radius:15px;padding:14px 16px;color:#b9c9df;font-size:13px;line-height:1.5}
+.quick{display:flex;gap:8px;flex-wrap:wrap}.tag{padding:9px 12px;border-radius:999px;border:1px solid var(--line);background:#0d1a2c;color:#dce7f5;cursor:pointer}
+footer{border-top:1px solid var(--line);margin-top:35px;padding:22px 0 30px;color:#8292a8;font-size:13px;text-align:center}
+.hidden{display:none!important}
+@media(max-width:600px){.wrap{padding:14px}.card{min-height:190px}.hero{padding-top:20px}.tools{position:sticky;top:0;background:rgba(7,17,31,.94);backdrop-filter:blur(10px);padding:9px 0;z-index:5}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <span class="badge">🇨🇱 Chile • Puerto Montt • Los Lagos</span>
+  <h1>DATO SUR</h1>
+  <p>Un punto rápido para encontrar recursos, servicios y datos útiles. Guarda la página y compártela cuando alguien necesite información de Chile o la zona sur.</p>
+  <div class="tools">
+    <input id="search" class="search" type="search" placeholder="🔎 Buscar recurso..." aria-label="Buscar recurso">
+    <button class="btn" onclick="shareSite()">📤 Compartir</button>
+  </div>
+  <div class="quick">
+    <button class="tag" data-filter="todos">Todos</button>
+    <button class="tag" data-filter="chile">Chile</button>
+    <button class="tag" data-filter="puerto">Puerto Montt</button>
+    <button class="tag" data-filter="servicios">Servicios</button>
+    <button class="tag" data-filter="dinero">Dinero</button>
+  </div>
+</header>
+
+<div class="note">ℹ️ Algunos botones utilizan enlaces de redirección externos. El sitio no solicita datos personales ni obliga a instalar aplicaciones.</div>
+
+<section class="section">
+<div class="section-head"><div><h2>🔥 Lo que puede ser útil hoy</h2><p>Accesos rápidos para consultar información.</p></div><p id="today"></p></div>
+<div id="cards" class="grid">
+
+<article class="card" data-tags="chile" data-text="tendencias chile google tendencias búsquedas">
+<div class="icon">🔥</div><h3>Tendencias de Chile</h3><p>Consulta qué temas y búsquedas están tomando interés en Chile.</p>
+<a class="go" href="https://cb.run/nxBP" target="_blank" rel="noopener noreferrer">VER INFORMACIÓN →</a></article>
+
+<article class="card" data-tags="puerto servicios" data-text="municipalidad puerto montt trámites servicios noticias">
+<div class="icon">📍</div><h3>Municipalidad de Puerto Montt</h3><p>Acceso a información y servicios relacionados con la comuna.</p>
+<a class="go" href="https://cb.run/5SkW" target="_blank" rel="noopener noreferrer">VER INFORMACIÓN →</a></article>
+
+<article class="card" data-tags="puerto servicios" data-text="movilidad los lagos transporte informa tránsito">
+<div class="icon">🚗</div><h3>Estado de movilidad — Los Lagos</h3><p>Consulta información relacionada con movilidad y transporte regional.</p>
+<a class="go" href="https://cb.run/TfJU" target="_blank" rel="noopener noreferrer">VER INFORMACIÓN →</a></article>
+
+<article class="card" data-tags="chile" data-text="sernatur turismo chile viajes destinos">
+<div class="icon">🇨🇱</div><h3>SERNATUR</h3><p>Recursos oficiales para turismo, destinos y servicios turísticos de Chile.</p>
+<a class="go" href="https://cb.run/Aq29" target="_blank" rel="noopener noreferrer">VER INFORMACIÓN →</a></article>
+
+<article class="card" data-tags="dinero chile" data-text="tenpo pagos dinero finanzas chile">
+<div class="icon">💳</div><h3>Tenpo</h3><p>Acceso rápido a información de una conocida plataforma financiera digital en Chile.</p>
+<a class="go" href="https://cb.run/4mmZ" target="_blank" rel="noopener noreferrer">VER INFORMACIÓN →</a></article>
+
+<article class="card" data-tags="dinero chile" data-text="mercado pago pagos dinero chile">
+<div class="icon">💰</div><h3>Mercado Pago</h3><p>Consulta recursos y servicios relacionados con pagos digitales.</p>
+<a class="go" href="https://cb.run/gz7t" target="_blank" rel="noopener noreferrer">VER INFORMACIÓN →</a></article>
+
+<article class="card" data-tags="chile servicios" data-text="apps android google play aplicaciones">
+<div class="icon">📱</div><h3>Apps Android</h3><p>Acceso a aplicaciones y herramientas disponibles para dispositivos Android.</p>
+<a class="go" href="https://cb.run/eSN7" target="_blank" rel="noopener noreferrer">VER INFORMACIÓN →</a></article>
+
+<article class="card" data-tags="puerto servicios" data-text="clima servicios climáticos chile lluvia tiempo">
+<div class="icon">🌧️</div><h3>Servicios climáticos</h3><p>Encuentra recursos para consultar condiciones y datos meteorológicos.</p>
+<a class="go" href="https://cb.run/GfUB" target="_blank" rel="noopener noreferrer">VER INFORMACIÓN →</a></article>
+
+<article class="card" data-tags="chile servicios" data-text="bolsa nacional empleo bne trabajo empleos">
+<div class="icon">💼</div><h3>Bolsa Nacional de Empleo</h3><p>Acceso a recursos para buscar oportunidades laborales en Chile.</p>
+<a class="go" href="https://cb.run/Nu6H" target="_blank" rel="noopener noreferrer">VER INFORMACIÓN →</a></article>
+
+<article class="card" data-tags="puerto servicios" data-text="transporte movilidad los lagos transporte informa">
+<div class="icon">🧭</div><h3>Transporte / movilidad Los Lagos</h3><p>Otro acceso rápido a información de transporte y movilidad regional.</p>
+<a class="go" href="https://cb.run/e2D5" target="_blank" rel="noopener noreferrer">VER INFORMACIÓN →</a></article>
+
+</div>
+</section>
+
+<section class="section">
+<h2>📌 Cómo aprovechar DATO SUR</h2>
+<div class="note">
+1. Usa el buscador para encontrar un recurso. &nbsp; 2. Comparte la página con personas que realmente puedan necesitarla. &nbsp; 3. Publica contenido útil alrededor de estos temas en redes sociales. &nbsp; 4. Revisa periódicamente qué recursos reciben más visitas y actualiza los que queden desactualizados.
+</div>
+</section>
+
+<footer>DATO SUR 🇨🇱 · Recursos útiles para Chile, Puerto Montt y Los Lagos<br><span id="year"></span></footer>
+</div>
+
+<script>
+const cards=[...document.querySelectorAll('.card')];
+const search=document.getElementById('search');
+function filter(q=''){
+  q=q.toLowerCase().trim();
+  cards.forEach(c=>{
+    const hay=(c.innerText+' '+c.dataset.text+' '+c.dataset.tags).toLowerCase();
+    c.classList.toggle('hidden',!!q && !hay.includes(q));
+  });
+}
+search.addEventListener('input',e=>filter(e.target.value));
+document.querySelectorAll('.tag').forEach(b=>b.addEventListener('click',()=>{
+  const f=b.dataset.filter;
+  search.value='';
+  cards.forEach(c=>c.classList.toggle('hidden',f!=='todos' && !c.dataset.tags.split(' ').includes(f)));
+}));
+function shareSite(){
+  const data={title:'DATO SUR 🇨🇱',text:'Recursos útiles de Chile, Puerto Montt y Los Lagos',url:'https://smrr-dbg.github.io/dato-sur-puerto-montt/'};
+  if(navigator.share) navigator.share(data).catch(()=>{});
+  else navigator.clipboard?.writeText(data.url).then(()=>alert('Enlace copiado'));
+}
+const now=new Date();
+document.getElementById('today').textContent='Actualizado: '+now.toLocaleDateString('es-CL',{day:'2-digit',month:'2-digit',year:'numeric'});
+document.getElementById('year').textContent='© '+now.getFullYear();
+</script>
+</body>
+</html>
